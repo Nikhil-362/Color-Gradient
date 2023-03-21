@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: rgb(5, 195, 138); */
+}
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+    height: 100vh;
+
+}
+
+.gradback{
+    background-color: rgba(255, 255, 255, 0.392);
+    height: 620px;
+    width: 500px;
+
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.gradbox{
+    height: 300px;
+    width: 455px;
+    background: rgb(2,0,36);
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+ margin: 20px;
+    opacity: 80%;
+    border-radius: 10px;
+
+}
+
+.i, .btn, .text{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+.ii{
+    margin: 0 35px;
+}
+
+p{
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+select{
+ padding: 10px;
+ border: none;
+ background-color: rgba(255, 255, 255, 0.285);
+ border-radius: 10px;
+ font-size: 15px;
+}
+
+select:focus{
+    border: none;
+    outline: none;
+}
+
+.btn button{
+    padding: 12px;
+    font-size: 17px;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    background-color: rgba(255, 255, 255, 0.303);
+
+}
+
+.btn .Copycode{
+    background-color: #ce5dce7e;
+}
+
+.btn{
+    margin: 0 40px;
+}
+
+.btn :hover{
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+
+textarea {
+    resize: none;
+    height: 80px;
+    width: 480px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 17px;
+    background-color: rgba(255, 255, 255, 0.264);
+    border: none;
+ }
+
+ textarea:focus{
+    outline: none !important;
+        border-color: #719ECE;
+        box-shadow: 0 0 10px #719ECE;
+ }
+
+ 
+ input[type=color] {
+    width: 50px;
+    height: 50px; 
+    border: none;;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+input[type=color]::-webkit-color-swatch {
+  border: none;
+  border-radius: 50%;
+  padding: 0;
+}
+
+input[type=color]::-webkit-color-swatch-wrapper {
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+}
+
+@media screen and (max-width : 600px) {
+
+    .gradback{
+      margin-top: 0px;
+    }
+
+    .gradback{
+    height: 700px;
+    width: 330px;
+
+    }
+
+    .gradbox{
+        height: 300px;
+        width: 291px;
+
+    }
+    
+    .btn button{
+        margin: 5px;
+    }
+
+    .btn{
+        margin: 0 0px;
+    }
+
+    textarea {
+        height: 120px;
+        width: 400px;
+        
+     }
+
+     select{
+        width: 100px;
+       }
+
+     
+
+
+}
